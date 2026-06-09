@@ -106,6 +106,9 @@ function RootShell({ children }: { children: ReactNode }) {
         <HeadContent />
       </head>
       <body>
+        <header className="w-full bg-primary py-2 text-center text-sm font-semibold tracking-wide text-primary-foreground">
+          my claude test
+        </header>
         {children}
         <Scripts />
       </body>
